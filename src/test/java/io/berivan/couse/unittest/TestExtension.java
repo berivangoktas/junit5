@@ -2,46 +2,57 @@ package io.berivan.couse.unittest;
 
 
 import org.json.JSONObject;
-import org.junit.jupiter.api.extension.AfterEachCallback;
 import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
+import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.BeforeTestExecutionCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestWatcher;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Optional;
 
 import static com.sun.org.glassfish.external.statistics.impl.StatisticImpl.START_TIME;
 
-public class TestExtension implements TestWatcher, BeforeTestExecutionCallback, AfterTestExecutionCallback
+
+public class TestExtension implements TestWatcher, BeforeTestExecutionCallback, AfterTestExecutionCallback, BeforeAllCallback
 {
+    private Long testTime;
+
+    String properties = System.getProperty("build.name").concat("/" + System.getProperty("build.number"));
+    String reportFilePath = "/Users/berivan.goktas/Desktop/unittestcourse/src/test/Report" + properties;
 
 
-    Long testTime;
-
-
-    // String properties = System.getProperty("build.name").concat("/" + System.getProperty("build.number"));
-    // String reportFilePath = "/Users/berivan.goktas/Desktop/unittestcourse/src/test/Report" + properties;
-
-
-   /* @Override
-    public void beforeAll(ExtensionContext extensionContext) throws Exception
+    @Override
+    public void beforeAll(ExtensionContext extensionContext)
     {
+        Path path = Paths.get(reportFilePath);
 
-        File file = new File(reportFilePath);
-
-        if (!file.exists())
+        if (!Files.exists(path))
         {
-            file.mkdir();
+            try
+            {
+                Files.createDirectories(path);
+            }
+            catch (IOException e)
+            {
+                e.printStackTrace();
+            }
         }
 
-    }*/
+    }
 
+    @Override
+    public void beforeTestExecution(ExtensionContext extensionContext)
+    {
+        getStoreForMethod(extensionContext).put(START_TIME, LocalDateTime.now());
+    }
 
     @Override
     public void testDisabled(ExtensionContext extensionContext, Optional<String> optional)
@@ -52,7 +63,6 @@ public class TestExtension implements TestWatcher, BeforeTestExecutionCallback, 
     @Override
     public void testSuccessful(ExtensionContext extensionContext)
     {
-        System.out.println("testSuccessful çalıştı");
         createMyJsonObject(extensionContext, TestStatus.PASSED);
     }
 
@@ -65,10 +75,7 @@ public class TestExtension implements TestWatcher, BeforeTestExecutionCallback, 
     @Override
     public void testFailed(ExtensionContext extensionContext, Throwable throwable)
     {
-
         createMyJsonObject(extensionContext, TestStatus.FAILED);
-
-
     }
 
 
@@ -76,7 +83,7 @@ public class TestExtension implements TestWatcher, BeforeTestExecutionCallback, 
     {
 
         String jonName = extensionContext.getRequiredTestClass().getName() + "." + extensionContext.getRequiredTestMethod().getName();
-        File file = new File("/Users/berivan.goktas/Desktop/unittestcourse/src/test/report" + "/" + jonName.concat(".json"));
+        File file = new File(reportFilePath+ "/" + jonName.concat(".json"));
 
         try
         {
@@ -107,24 +114,16 @@ public class TestExtension implements TestWatcher, BeforeTestExecutionCallback, 
 
     }
 
-    private ExtensionContext.Store getStoreForMethod(ExtensionContext extensionContext)
-    {
-        return extensionContext.getStore(ExtensionContext.Namespace.create(getClass(), extensionContext.getRequiredTestMethod()));
-    }
-
     @Override
     public void afterTestExecution(ExtensionContext extensionContext) throws Exception
     {
         final LocalDateTime startTime = getStoreForMethod(extensionContext).remove(START_TIME, LocalDateTime.class);
         testTime = startTime.until(LocalDateTime.now(), ChronoUnit.SECONDS);
-        System.out.println("afterTestExecution çalıştı" + testTime);
-
     }
 
-    @Override
-    public void beforeTestExecution(ExtensionContext extensionContext) throws Exception
+    private ExtensionContext.Store getStoreForMethod(ExtensionContext extensionContext)
     {
-        getStoreForMethod(extensionContext).put(START_TIME, LocalDateTime.now());
+        return extensionContext.getStore(ExtensionContext.Namespace.create(getClass(), extensionContext.getRequiredTestMethod()));
     }
 
 
