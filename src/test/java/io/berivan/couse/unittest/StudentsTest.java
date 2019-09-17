@@ -1,6 +1,7 @@
 package io.berivan.couse.unittest;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -14,7 +15,11 @@ import org.junit.jupiter.api.condition.EnabledOnOs;
 import org.junit.jupiter.api.condition.JRE;
 import org.junit.jupiter.api.condition.OS;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.function.Executable;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.SessionId;
 
 
 import java.time.Duration;
@@ -26,13 +31,17 @@ import static org.junit.jupiter.api.Assertions.assertTimeout;
 import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@ExtendWith(TestLoggerExtension.class)
+@ExtendWith({TestLoggerExtension.class})
 @Tag("student")
 @DisplayName("student oprations")
 public class StudentsTest
 {
 
     final Student student1 = new Student("Ali", "Gok", "1");
+    private WebDriver driver;
+   // SessionId session = ((ChromeDriver)driver).getSessionId();
+
+  //  private  final ExtensionContext.Namespace EXTENSION_NAMESPACE = ExtensionContext.Namespace.create(new Object[]{session});
 
     @Test
     void testAssertionsGroup()
@@ -110,6 +119,8 @@ public class StudentsTest
     {
         //Ignore
 
+
+        System.out.println("berivan");
     }
 
     //-----------
@@ -163,8 +174,23 @@ public class StudentsTest
         System.out.println("Berivan");
     }
 
+    @BeforeEach
+    void setup(ExtensionContext extensionContext)
+    {
 
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+       // driver = new ChromeDriver();
+       // extensionContext.getStore(EXTENSION_NAMESPACE )
 
+    }
+
+    @Test
+    void testOne() throws InterruptedException
+    {
+        Thread.sleep(5000);
+        driver.close();
+        driver.quit();
+    }
 
 
 }
