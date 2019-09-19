@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
@@ -43,6 +45,7 @@ public class StudentsTest
 
   //  private  final ExtensionContext.Namespace EXTENSION_NAMESPACE = ExtensionContext.Namespace.create(new Object[]{session});
 
+    @Contact(Kure.Bireysel)
     @Test
     void testAssertionsGroup()
     {
@@ -71,6 +74,7 @@ public class StudentsTest
 
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void testExcepitonAssertions()
     {
@@ -100,6 +104,7 @@ public class StudentsTest
         assertEquals("Can't add name with null student", illegalArgumentException.getMessage());
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void assertTimeOut()
     {
@@ -113,6 +118,7 @@ public class StudentsTest
     }
 
     //-----------
+    @Contact(Kure.Bireysel)
     @Disabled("private message")
     @Test
     void disabledTest()
@@ -124,6 +130,7 @@ public class StudentsTest
     }
 
     //-----------
+    @Contact(Kure.Bireysel)
     @EnabledOnOs({OS.MAC})
     @Test
     void testOpreationSystemMac()
@@ -132,6 +139,7 @@ public class StudentsTest
         System.out.println("Berivan");
     }
 
+    @Contact(Kure.Bireysel)
     @DisabledOnOs({OS.MAC})
     @Test
     void testOpreationSystemNotMac()
@@ -141,6 +149,7 @@ public class StudentsTest
 
     }
 
+    @Contact(Kure.Bireysel)
     @EnabledOnJre({JRE.JAVA_8, JRE.JAVA_9})
     @Test
     void testJREVersion()
@@ -149,6 +158,7 @@ public class StudentsTest
         System.out.println("Berivan");
     }
 
+    @Contact(Kure.Bireysel)
     @DisabledOnJre({JRE.JAVA_8})
     @Test
     void testJREVersionNor()
@@ -157,6 +167,7 @@ public class StudentsTest
         System.out.println("Berivan");
     }
 
+    @Contact(Kure.Bireysel)
     @EnabledIfSystemProperty(named = "ENV", matches = "dev")
     @Test
     void testSystemProperty()
@@ -166,6 +177,7 @@ public class StudentsTest
     }
 
     //-----------
+    @Contact(Kure.Bireysel)
     @Tag("tag")
     @Test
     void testTag()
@@ -184,6 +196,7 @@ public class StudentsTest
 
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void testOne() throws InterruptedException
     {

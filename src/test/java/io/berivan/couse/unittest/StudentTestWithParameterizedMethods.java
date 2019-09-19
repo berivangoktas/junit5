@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
@@ -20,6 +22,7 @@ public class StudentTestWithParameterizedMethods
 {
     private Student student;
 
+    @Contact(Kure.Bireysel)
     @TestInstance(TestInstance.Lifecycle.PER_CLASS)
     @Nested
     class ValueSourceDemo
@@ -36,6 +39,7 @@ public class StudentTestWithParameterizedMethods
 
 
         //Verilen her parameter için bu test methodu çalıştırıldı.
+        @Contact(Kure.Bireysel)
         @ParameterizedTest
         @ValueSource(strings = {"101", "102", "103 "})
         void addCourse(String studentNo)
@@ -46,7 +50,7 @@ public class StudentTestWithParameterizedMethods
             System.out.println("Student NO: " + studentSize);
         }
 
-
+        @Contact(Kure.Bireysel)
         @ParameterizedTest
         @EnumSource(TimeUnitEnum.class)
         void testWithEnumSource(TimeUnitEnum timeUnit)
@@ -54,7 +58,7 @@ public class StudentTestWithParameterizedMethods
             System.out.println("timeUnit" + timeUnit);
             assertNotNull(timeUnit);
         }
-
+        @Contact(Kure.Bireysel)
         @ParameterizedTest
         @EnumSource(value = TimeUnitEnum.class, names = "DAYS")
         void testWithEnumSourceInclude(TimeUnit timeUnit)
@@ -65,7 +69,7 @@ public class StudentTestWithParameterizedMethods
 
 
     }
-
+    @Contact(Kure.Bireysel)
     @TestInstance(TestInstance.Lifecycle.PER_CLASS)
     @Nested
     class ValueSourceDemoMethod
@@ -80,7 +84,7 @@ public class StudentTestWithParameterizedMethods
 
         }
 
-
+        @Contact(Kure.Bireysel)
         //Verilen her parameter için bu test methodu çalıştırıldı.
         @ParameterizedTest
         @MethodSource

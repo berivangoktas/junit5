@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -48,6 +50,7 @@ public class StudentConstructorTest
     }
 
 
+    @Contact(Kure.Bireysel)
     @Test
     @DisplayName("create Student")
     @Tag("addstudent")
@@ -56,6 +59,7 @@ public class StudentConstructorTest
         assertEquals("Ahmet", student.getName());
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     @DisplayName("create Student")
     @Tag("addCourse")
@@ -64,7 +68,7 @@ public class StudentConstructorTest
         assertEquals("Mehmet", course.getName());
     }
 
-
+    @Contact(Kure.Bireysel)
     //Ekstra bilgi yayınlamak için
     @Test
     @DisplayName("create Student")

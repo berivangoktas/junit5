@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -11,6 +13,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 public class StudentTestWithBenchMark
 {
 
+    @Contact(Kure.Bireysel)
     @Disabled
     @Test
      void test_4()
@@ -20,6 +23,7 @@ public class StudentTestWithBenchMark
         System.out.println("4 test çalıştı");
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void test_5()
     {
@@ -27,7 +31,7 @@ public class StudentTestWithBenchMark
         System.out.println("5 test çalıştı");
     }
 
-
+    @Contact(Kure.Bireysel)
     @Test
     void test_6()
     {

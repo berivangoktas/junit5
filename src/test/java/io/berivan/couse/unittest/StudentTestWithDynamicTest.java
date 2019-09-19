@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.DynamicNode;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.Test;

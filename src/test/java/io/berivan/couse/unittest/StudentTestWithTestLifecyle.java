@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -16,7 +18,7 @@ public class StudentTestWithTestLifecyle
         // statici kaldırıp Per class yaparsak hata almayacağız.
     }
 
-
+    @Contact(Kure.Bireysel)
     @Test
     void testPerMethod()
     {
@@ -25,6 +27,7 @@ public class StudentTestWithTestLifecyle
 
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void testPerClass()
     {

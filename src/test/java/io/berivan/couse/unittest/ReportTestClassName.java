@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -27,6 +29,7 @@ public class ReportTestClassName
         driver = new ChromeDriver();
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void testOne() throws InterruptedException
     {
@@ -34,6 +37,8 @@ public class ReportTestClassName
         driver.close();
         driver.quit();
     }
+
+    @Contact(Kure.Bireysel)
     @Test
     void testTwo() throws InterruptedException
     {
@@ -43,16 +48,18 @@ public class ReportTestClassName
     }
 
 
+    @Contact(Kure.Reklam)
     @DisplayName("Raporlama")
     @Tag("TagReport")
     @Test
-    void testReportTestName() throws InterruptedException
+    void testReportTestName()
     {
         String x = "2";
         String y = "3";
-        Assertions.assertFalse(x.equals(y));
+        Assertions.assertTrue(x.equals(y));
     }
 
+    @Contact(Kure.Bireysel)
     @DisplayName("Raporlama")
     @Tag("TagReport")
     @Test
@@ -61,6 +68,6 @@ public class ReportTestClassName
         Thread.sleep(5000);
         String x = "2";
         String y = "3";
-        Assertions.assertTrue(x.equals(y));
+        Assertions.assertFalse(x.equals(y));
     }
 }

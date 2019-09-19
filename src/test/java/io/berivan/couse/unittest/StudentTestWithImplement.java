@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.Assertions;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
@@ -16,6 +18,7 @@ public class StudentTestWithImplement implements CreateDomain<Student>,TestLifeC
         return new Student("Ahmet", "Ahmet", "1");
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void createStudent()
     {

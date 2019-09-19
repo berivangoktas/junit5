@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e18c0b-16b1-45ce-8896-4f4a91432c09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/Kure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/CreateDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/CreateDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentConstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithBenchMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithBenchMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithDynamicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithDynamicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithTestLifecyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithTestLifecyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentWithNestedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentWithNestedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/CreateDomain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/CreateDomain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentConstructorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentConstructorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithBenchMark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithBenchMark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithDynamicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithDynamicTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithImplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithParameterizedMethods$ValueSourceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithParameterizedMethods$ValueSourceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithParameterizedMethods$ValueSourceDemoMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithParameterizedMethods$ValueSourceDemoMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithTestLifecyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentTestWithTestLifecyle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentWithNestedTest$studentNested.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentWithNestedTest$studentNested.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentWithNestedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentWithNestedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/berivan/couse/unittest/StudentsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,36 +39,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/unittestcourse$ReportTestClassName_testTwo.ic" NAME="ReportTestClassName.testTwo Coverage Results" MODIFIED="1568890792090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.berivan.couse.unittest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/unittestcourse$_engine_junit_jupiter___class_io_berivan_couse_unittest_ReportTestClassName___2_.ic" NAME="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (2) Coverage Results" MODIFIED="1568879188152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.berivan.couse.unittest.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1565079474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="8142" />
+          <entry key="java" value="9218" />
           <entry key="txt" value="67" />
-          <entry key="xml" value="257" />
+          <entry key="xml" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8142" />
+          <entry key="JAVA" value="9218" />
           <entry key="PLAIN_TEXT" value="78" />
-          <entry key="XML" value="257" />
+          <entry key="XML" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,22 +87,22 @@
           <entry key="OpgvS" value="1" />
           <entry key="ReportTest#testreport" value="1" />
           <entry key="YBkxY" value="1" />
-          <entry key="class" value="46" />
-          <entry key="java" value="74" />
-          <entry key="json" value="19" />
+          <entry key="class" value="54" />
+          <entry key="java" value="95" />
+          <entry key="json" value="34" />
           <entry key="lCmPn" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="7" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="46" />
-          <entry key="JAVA" value="74" />
-          <entry key="JSON" value="19" />
+          <entry key="CLASS" value="54" />
+          <entry key="JAVA" value="95" />
+          <entry key="JSON" value="34" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="7" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -79,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+            <state relative-caret-position="164">
+              <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -88,53 +121,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestExtension.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="649">
+              <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/TestResultJsons/paralel/113/io.berivan.couse.unittest.ReportTestClassName.testOne.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/TestResultJsons/paralel/113/io.berivan.couse.unittest.ReportTestClassName.testReportTestName.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3120">
+              <caret line="264" selection-start-line="264" selection-end-line="264" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestExtension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/BenchMarkExtension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/org/glassfish/external/statistics/impl/StatisticImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="43" column="53" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="53" />
+            <state relative-caret-position="-167">
+              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,9 +187,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -187,34 +227,38 @@
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/FizzBuzzTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithTestLifecyle.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Couser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentConstructorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/CreateDomain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithImplement.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TimeUnit.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TimeUnitEnum.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Course.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Lesson.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithDynamicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestLoggerExtension.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentWithNestedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Student.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestLifeCycleReporter.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/BenchMarkExtension.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithBenchMark.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportHolder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java" />
         <option value="$PROJECT_DIR$/src/test/report/io.berivan.couse.unittest.ReportTest#testreport" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTest.java" />
         <option value="$PROJECT_DIR$/src/test/report/JaaBF.json" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Files.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java" />
         <option value="$PROJECT_DIR$/src/test/resources/junit-platform.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/Kure.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/Contact.java" />
+        <option value="$PROJECT_DIR$/src/test/paralel/113/io.berivan.couse.unittest.ReportTestClassName.testOne.json" />
+        <option value="$PROJECT_DIR$/src/test/paralel-113-SKVFaSvjjX/TestResults.json" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentWithNestedTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentConstructorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithImplement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithDynamicTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithTestLifecyle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithBenchMark.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/CreateDomain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestExtension.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java" />
       </list>
     </option>
   </component>
@@ -243,7 +287,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -269,12 +313,6 @@
               <item name="unittestcourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="unittestcourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,46 +320,58 @@
               <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unittestcourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="TestResult" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unittestcourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="berivan" type="462c0819:PsiDirectoryNode" />
+              <item name="TestResult" type="462c0819:PsiDirectoryNode" />
+              <item name="Serial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="unittestcourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="berivan" type="462c0819:PsiDirectoryNode" />
-              <item name="couse" type="462c0819:PsiDirectoryNode" />
+              <item name="TestResultJsons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unittestcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="TestResultJsons" type="462c0819:PsiDirectoryNode" />
+              <item name="paralel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unittestcourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unittestcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="TestResultJsons" type="462c0819:PsiDirectoryNode" />
+              <item name="paralel" type="462c0819:PsiDirectoryNode" />
+              <item name="113" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="po&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom.x&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom.xm&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;Stude&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/src/test/java/io/berivan/couse/unittest/StudentsTest.java&#10;Po&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom.&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568809723092" />
+    <property name="SearchEverywhereHistoryKey" value="CreateDomain&#9;PSI&#9;JAVA://io.berivan.couse.unittest.CreateDomain&#10;StudentTestWithBenchMark&#9;PSI&#9;JAVA://io.berivan.couse.unittest.StudentTestWithBenchMark&#10;StudentWithNestedTest.&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/src/test/java/io/berivan/couse/unittest/StudentWithNestedTest.java&#10;po&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom.x&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom.xm&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;Stude&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/src/test/java/io/berivan/couse/unittest/StudentsTest.java&#10;Po&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml&#10;pom.&#9;FILE&#9;file:///Users/berivan.goktas/Desktop/unittestcourse/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568906838233" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -329,14 +379,18 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.berivan.couse.unittest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/TestResult/Paralel" />
       <recent name="$PROJECT_DIR$/drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/TestResult/Paralel" />
+      <recent name="$PROJECT_DIR$/src/test/TestResult" />
+      <recent name="$PROJECT_DIR$/src/test/TestResultJsons" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReportGeneratorUtils">
+  <component name="RunManager" selected="JUnit.ReportTestClassName.testTwo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -378,7 +432,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReportTestClassName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReportTestClassName.testTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unittestcourse" />
       <extension name="coverage">
         <pattern>
@@ -388,63 +442,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
       <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTestClassName" />
-      <option name="METHOD_NAME" value="" />
-      <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportTestClassName.testReportTestName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittestcourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.berivan.couse.unittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
-      <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTestClassName" />
-      <option name="METHOD_NAME" value="testReportTestName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportTestClassName.testReportTestName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittestcourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.berivan.couse.unittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
-      <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTestClassName" />
-      <option name="METHOD_NAME" value="testReportTestName2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReportTest.testreport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unittestcourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.berivan.couse.unittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
-      <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTest" />
-      <option name="METHOD_NAME" value="testreport" />
+      <option name="METHOD_NAME" value="testTwo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
       <option name="PARAMETERS" value="" />
@@ -468,6 +466,94 @@
       <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittestcourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.berivan.couse.unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
+      <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTestClassName" />
+      <option name="METHOD_NAME" value="testReportTestName" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittestcourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.berivan.couse.unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
+      <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTestClassName" />
+      <option name="METHOD_NAME" value="testReportTestName" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittestcourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.berivan.couse.unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
+      <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTestClassName" />
+      <option name="METHOD_NAME" value="testReportTestName" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unittestcourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.berivan.couse.unittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.berivan.couse.unittest" />
+      <option name="MAIN_CLASS_NAME" value="io.berivan.couse.unittest.ReportTestClassName" />
+      <option name="METHOD_NAME" value="testReportTestName" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="VM_PARAMETERS" value="-Dbuild.name=paralel -Dbuild.number=113" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -502,17 +588,19 @@
     <list>
       <item itemvalue="Application.ReportGeneratorUtils" />
       <item itemvalue="JUnit.StudentsTest.testTag" />
-      <item itemvalue="JUnit.ReportTest.testreport" />
-      <item itemvalue="JUnit.ReportTestClassName.testReportTestName" />
-      <item itemvalue="JUnit.ReportTestClassName" />
-      <item itemvalue="JUnit.ReportTestClassName.testReportTestName2" />
+      <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName]" />
+      <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (1)" />
+      <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (2)" />
+      <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (3)" />
+      <item itemvalue="JUnit.ReportTestClassName.testTwo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReportTestClassName.testReportTestName" />
-        <item itemvalue="JUnit.ReportTestClassName.testReportTestName2" />
-        <item itemvalue="JUnit.ReportTestClassName" />
-        <item itemvalue="JUnit.ReportTest.testreport" />
+        <item itemvalue="JUnit.ReportTestClassName.testTwo" />
+        <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (3)" />
+        <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (2)" />
+        <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (1)" />
+        <item itemvalue="JUnit.[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName]" />
       </list>
     </recent_temporary>
   </component>
@@ -530,39 +618,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReportTestClassName_testReportTestName - 2019.09.17 at 16h 48m 53s.xml">
-      <configuration name="ReportTestClassName.testReportTestName" configurationId="JUnit" />
+    <history-entry file="[engine_junit-jupiter]_[class_io_berivan_couse_unittest_ReportTestClassName]_(3) - 2019.09.19 at 11h 10m 16s.xml">
+      <configuration name="[engine:junit-jupiter]/[class:io.berivan.couse.unittest.ReportTestClassName] (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName_testReportTestName - 2019.09.17 at 16h 50m 01s.xml">
-      <configuration name="ReportTestClassName.testReportTestName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 11h 13m 52s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName_testReportTestName - 2019.09.17 at 16h 50m 48s.xml">
-      <configuration name="ReportTestClassName.testReportTestName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 13h 24m 51s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName_testReportTestName - 2019.09.17 at 16h 51m 42s.xml">
-      <configuration name="ReportTestClassName.testReportTestName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 13h 24m 52s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName - 2019.09.17 at 17h 15m 35s.xml">
-      <configuration name="ReportTestClassName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 13h 26m 47s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName - 2019.09.17 at 17h 18m 52s.xml">
-      <configuration name="ReportTestClassName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 14h 00m 00s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName - 2019.09.17 at 17h 19m 44s.xml">
-      <configuration name="ReportTestClassName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 14h 01m 10s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName - 2019.09.17 at 17h 20m 12s.xml">
-      <configuration name="ReportTestClassName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 14h 09m 09s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName_testReportTestName - 2019.09.18 at 15h 09m 37s.xml">
-      <configuration name="ReportTestClassName.testReportTestName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 14h 15m 38s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReportTestClassName_testReportTestName - 2019.09.18 at 15h 14m 38s.xml">
-      <configuration name="ReportTestClassName.testReportTestName" configurationId="JUnit" />
+    <history-entry file="ReportTestClassName_testTwo - 2019.09.19 at 14h 16m 05s.xml">
+      <configuration name="ReportTestClassName.testTwo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -570,16 +659,16 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="JRebel" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49884528" weight="0.24606581" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49884528" visible="true" weight="0.2360515" />
       <window_info id="Structure" order="7" sideWeight="0.5011547" side_tool="true" weight="0.2811159" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32961586" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.8390558" visible="true" weight="0.39900866" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.8390558" visible="true" weight="0.22800496" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.16094421" side_tool="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49928468" weight="0.32961586" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49928468" weight="0.34448576" />
       <window_info anchor="bottom" id="JRebel Console" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4126394" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.37546468" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -588,11 +677,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.26466382" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.26466382" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -601,14 +691,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="JRebel" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49884528" visible="true" weight="0.24606581" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49884528" visible="true" weight="0.24606581" />
       <window_info id="Structure" order="7" sideWeight="0.5011547" side_tool="true" weight="0.2811159" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32961586" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.8390558" weight="0.39900866" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.8390558" visible="true" weight="0.39900866" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.16094421" side_tool="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49928468" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49928468" visible="true" weight="0.34448576" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49928468" weight="0.34448576" />
       <window_info anchor="bottom" id="JRebel Console" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4126394" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -644,31 +734,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java</url>
-          <line>62</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java</url>
-          <line>67</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java</url>
-          <line>99</line>
+          <line>103</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/CreateDomain.java</url>
-          <line>14</line>
+          <line>17</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.java</url>
-          <line>61</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -680,7 +770,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithBenchMark.java</url>
-          <line>17</line>
+          <line>20</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -704,31 +794,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java</url>
-          <line>41</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java</url>
-          <line>173</line>
+          <line>185</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java</url>
-          <line>20</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java</url>
-          <line>60</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestExtension.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/CreateDomain.java</url>
-          <line>9</line>
+          <line>11</line>
           <properties class="io.berivan.couse.unittest.CreateDomain" method="createDomain">
             <option name="EMULATED" value="true" />
           </properties>
@@ -736,11 +838,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="extensionContext.getRequiredTestMethod().getAnnotation(DisplayName.class)" language="JAVA" custom="org.junit.jupiter.api.DisplayName" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -753,41 +850,27 @@
     </expressions>
     <expressions id="watch">
       <expression>
-        <expression-string>extensionContext.getRequiredTestMethod().getAnnotation(DisplayName.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.junit.jupiter.api.DisplayName</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>extensionContext.getRequiredTestMethod(</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.jdi.JDWP</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>extensionContext.getRequiredTestMethod().getAnnotation(@Tag.class)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.jdi.JDWP</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>extensionContext.getRequiredTestMethod().getAnnotation(JDWP.Tag.CLASS_LOADER)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>com.sun.tools.jdi.JDWP</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>extensionContext.getRequiredTestMethod().getAnnotation(&quot;Tag&quot;)</expression-string>
+        <expression-string>testClassesMap</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>extensionContext.getRequiredTestMethod().getAnnotation()</expression-string>
+        <expression-string>testResultJsonsBuildNumberPath</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>extensionContext.getRequiredTestMethod().genericInfo</expression-string>
+        <expression-string>System.getProperty(&quot;build.name&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>extensionContext.getRequiredTestClass().getName().concat(&quot;.&quot;).concat(extensionContext.getRequiredTestMethod().getName()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>extensionContext.getRequiredTestClass().getName().concat(extensionContext.getRequiredTestMethod().getName()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -797,143 +880,26 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>extensionContext.getTestMethod()</expression-string>
+        <expression-string>extensionContext.getRequiredTestClass().getName()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>extensionContext.getTestClass()</expression-string>
+        <expression-string>extensionContext.getRequiredTestClass().getName().concat(extensionContext.getRequiredTestMethod().getName().split(&quot;()&quot;)[0])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>contact</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Report/berivan.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithBenchMark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.3.1/junit-jupiter-engine-5.3.1.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar!/org/junit/jupiter/api/extension/AfterTestExecutionCallback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar!/org/junit/jupiter/api/extension/ExtensionContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/extension/ExtensionRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/ExtensionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/Node.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/NodeTestTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/HierarchicalTestExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/HierarchicalTestEngine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-launcher/1.5.2/junit-platform-launcher-1.5.2.jar!/org/junit/platform/launcher/core/DefaultLauncher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/SameThreadHierarchicalTestExecutorService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestLoggerExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/report/io.berivan.couse.unittest.ReportTest#testreport" />
-    <entry file="file://$PROJECT_DIR$/src/test/report/YBkxY" />
-    <entry file="file://$PROJECT_DIR$/src/test/report/lCmPn" />
-    <entry file="file://$PROJECT_DIR$/src/test/report/FixrF" />
-    <entry file="file://$PROJECT_DIR$/src/test/report/BjeTi" />
-    <entry file="file://$PROJECT_DIR$/src/test/report/OpgvS" />
     <entry file="file://$PROJECT_DIR$/src/test/report/JaaBF.json" />
     <entry file="file://$PROJECT_DIR$/src/test/report/swNRM.json" />
     <entry file="file://$PROJECT_DIR$/src/test/report/tlaUP.json" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="265" selection-start-line="265" selection-end-line="265" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/report/io.berivan.couse.unittest.ReportTestClassName.testReportTestName2.json" />
     <entry file="file://$PROJECT_DIR$/src/test/report/io.berivan.couse.unittest.ReportTestClassName.testReportTestName.json" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
@@ -950,20 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Files.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -972,19 +924,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="176" column="1" selection-start-line="176" selection-start-column="1" selection-end-line="192" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testReportTestName2.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testReportTestName2.json" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar!/org/junit/jupiter/api/parallel/ExecutionMode.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -999,43 +939,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testOne.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testTwo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testReportTestName.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/paralel/113/io.berivan.couse.unittest.ReportTestClassName.testReportTestName.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/paralel-113-NlbaWynDfM/TestResults.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/paralel-113-QtXoOMzOkm/TestResults.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testOne.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testTwo.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/Reportparalel/113/io.berivan.couse.unittest.ReportTestClassName.testReportTestName.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/paralel-113-NlbaWynDfM/TestResults.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/paralel-113-QtXoOMzOkm/TestResults.json" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/org/glassfish/external/statistics/impl/StatisticImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1043,23 +951,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/paralel-113-YgedxgnpSZ/TestResults.json" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="168">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/paralel-113-aTtkTIIxES/TestResults.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/paralel-113-SKVFaSvjjX/TestResults.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/TestResult/Paralel/113-ZkvfsHpqoe/TestResults.json" />
     <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/BenchMarkExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1070,20 +972,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="43" column="53" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="53" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentConstructorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="198" column="27" selection-start-line="198" selection-start-column="27" selection-end-line="198" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithDynamicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithParameterizedMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithTestLifecyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentWithNestedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/Kure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestResult/Paralel/113-fnnyfjnh/TestResults.json" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="223" column="33" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/junit-platform.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/CreateDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/StudentTestWithBenchMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestResultJsons/paralel/113/io.berivan.couse.unittest.ReportTestClassName.testTwo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar!/org/junit/jupiter/api/extension/TestWatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestResultJsons/paralel/113/io.berivan.couse.unittest.ReportTestClassName.testOne.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestResultJsons/paralel/113/io.berivan.couse.unittest.ReportTestClassName.testReportTestName.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/TestExtension.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="649">
+          <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportTestClassName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/berivan/couse/unittest/ReportGeneratorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

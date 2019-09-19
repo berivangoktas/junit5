@@ -1,5 +1,7 @@
 package io.berivan.couse.unittest;
 
+import io.Contact;
+import io.Kure;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -19,6 +21,7 @@ public class StudentWithNestedTest
     }
 
 
+    @Contact(Kure.Bireysel)
     @DisplayName("")
     @Nested
     class studentNested
@@ -29,20 +32,20 @@ public class StudentWithNestedTest
         {
             System.out.println("Nested içine girdi");
         }
-
+        @Contact(Kure.Bireysel)
         @Test
         void test_1()
         {
             assertEquals("Ali", student1.getName());
         }
-
+        @Contact(Kure.Bireysel)
         @Test
         void test_2()
         {
 
             assertEquals("Ali", student1.getName());
         }
-
+        @Contact(Kure.Bireysel)
         @Test
         void test_3()
         {
@@ -52,6 +55,7 @@ public class StudentWithNestedTest
     }
 
 
+    @Contact(Kure.Bireysel)
     @Test
     void test_4()
     {
@@ -59,6 +63,7 @@ public class StudentWithNestedTest
         assertEquals("Ali", student1.getName());
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void test_5()
     {
@@ -66,6 +71,7 @@ public class StudentWithNestedTest
         assertEquals("Ali", student1.getName());
     }
 
+    @Contact(Kure.Bireysel)
     @Test
     void test_6()
     {

@@ -23,8 +23,14 @@ public class ReportGeneratorUtils
     static String properties = System.getProperty("build.name").concat("/" + System.getProperty("build.number"));
     static String TEST_RESULT_JSONS_PATH = REPORT_GENERIC_PATH + properties;
 
+
+    String TEST_RESULT_BASE_PATH = "/Users/berivan.goktas/Desktop/unittestcourse/src/test/TestResult/";
+    String TEST_RESULT_BUILD_NUMBER_PATH;
+
     public static void main(String[] args)
     {
+
+
         String TEST_RESULT_JSON_FOLDER_NAME = System.getProperty("build.name").concat("-" + System.getProperty("build.number").concat("-") + RandomStringUtils.randomAlphabetic(10));
 
         try (Stream<Path> paths = Files.walk(Paths.get(TEST_RESULT_JSONS_PATH)))
@@ -41,7 +47,7 @@ public class ReportGeneratorUtils
     {
         try
         {
-            Path path = Paths.get(REPORT_GENERIC_PATH  + folderName);
+            Path path = Paths.get(REPORT_GENERIC_PATH + folderName);
 
             File file = new File(path.toUri().getPath().concat("/TestResults.json"));
 
@@ -112,6 +118,7 @@ public class ReportGeneratorUtils
         newObject.addProperty("DisplayName", testResultObject.getString("DisplayName"));
         newObject.addProperty("TestMethod", testResultObject.getString("TestMethod"));
         newObject.addProperty("TestTime", testResultObject.getLong("TestTime"));
+        newObject.addProperty("Kure", testResultObject.getString("Kure"));
         newObject.addProperty("StackTrace", testResultObject.getString("StackTrace"));
 
         inputObj.get("results").getAsJsonArray().add(newObject);
